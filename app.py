@@ -13,7 +13,7 @@ def getip():
     hostname=socket.gethostname()     #Desktop Name
     IP_ADDRESS =socket.gethostbyname(hostname) #  IP Adress
     print("IP Address is:"+IP_ADDRESS) 
-    return f"MY ip address is {IP_ADDRESS}""
+    return f"MY ip address is {IP_ADDRESS}"
 
 @app.route('/upload')
 def upload_file():
