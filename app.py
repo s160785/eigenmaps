@@ -5,7 +5,11 @@ import os
 
 @app.route("/")
 def home():
-    return "Hello, Flask!"
+    return """
+            <h1>Eigenmaps assignment</h1>
+            -  <a href="/getip">Getting the IP address</a></br>
+            -  <a href="/upload">Find total no of objects in image</a>
+        """
 
 
 @app.route("/getip")
